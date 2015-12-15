@@ -1,0 +1,14 @@
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\MiracleMachine.data.models.dll.config
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\MiracleMachine.data.models.dll
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\MiracleMachine.data.models.pdb
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\EntityFramework.dll
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\EntityFramework.xml
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\obj\Debug\MiracleMachine.data.models.csprojResolveAssemblyReference.cache
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\obj\Debug\MiracleMachine.data.models.dll
+C:\Projects\MagicProject\MiracleMachine\MiracleMachine.data.models\obj\Debug\MiracleMachine.data.models.pdb

@@ -1,0 +1,44 @@
+﻿@model MiracleMachine.data.models.NewTrick
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutLoggedIn.cshtml";
+}
+
+<h1>Enter eight props you'd like to use!</h1>
+
+@using (Html.BeginForm()) 
+{
+    <div>
+        @Html.TextBoxFor(p => p.UserProps, new { @class = "form-control" })
+    </div>
+    <div>
+        @Html.TextBoxFor(p => p.UserProps, new { @class = "form-control" })    
+    </div>
+    <div>
+        @Html.TextBoxFor(p => p.UserProps, new { @class = "form-control" })    
+    </div>
+    <div>
+        @Html.TextBoxFor(p => p.UserProps, new { @class = "form-control" })    
+    </div>
+    <div>
+        @Html.TextBoxFor(p => p.UserProps, new { @class = "form-control" })    
+    </div>
+    <div>
+        @Html.TextBoxFor(p => p.UserProps, new { @class = "form-control" })    
+    </div>
+    <div>
+        @Html.TextBoxFor(p => p.UserProps, new { @class = "form-control" })    
+    </div>
+    <div>
+        @Html.TextBoxFor(p => p.UserProps, new { @class = "form-control" })    
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

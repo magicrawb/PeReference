@@ -1,0 +1,41 @@
+﻿@model MiracleMachine.data.models.NewTrick
+
+@{
+    ViewBag.Title = "NewTrick";
+    Layout = "~/Views/Shared/_LayoutLoggedIn.cshtml";
+}
+
+<h2>Here's Your New Trick!</h2>
+
+@if(Model.Props.Count == 2)
+{
+    <div>
+        Use These Props
+    </div>
+    <div>
+        <div>
+            @Model.Props.Select(p => p.PropName.FirstOrDefault())
+        </div>
+        <div>
+            @Model.Props.Select(p => p.PropName.FirstOrDefault())
+        </div>
+    </div>
+}
+else
+{
+    <div>
+        Use This Prop
+    </div>
+    <div>
+        <div>
+            @Model.Props.Select(p => p.PropName.FirstOrDefault())
+        </div>
+    </div>
+}
+
+<div>
+    Use the @Model.Theory.TheoryName theory:
+</div>
+<div>
+    @Model.Theory.TheoryDescription
+</div>

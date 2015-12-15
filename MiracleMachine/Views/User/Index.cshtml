@@ -1,0 +1,25 @@
+﻿@model MiracleMachine.Models.ProfileViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutLoggedIn.cshtml";
+}
+
+<div>
+    <h1>Your Tricks</h1>
+</div>
+    @foreach (var item in Model.NewTricks)
+    {
+        <div>
+            <div>
+                @item.TrickName
+            </div>
+            <div>
+                <i class="fa fa-pencil-square-o"></i>
+            </div>
+            <div>
+                <i class="fa fa-remove"></i>
+            </div>
+        </div>
+    }
+}

@@ -1,0 +1,14 @@
+﻿@model MiracleMachine.Models.ProfileViewModel
+
+@{
+    ViewBag.Title = "NoTricks";
+    Layout = "~/Views/Shared/_LayoutLoggedIn.cshtml";
+}
+
+<div>
+    <h1>It looks like you haven't created anything yet!</h1>
+</div>
+<div>
+    @Html.ActionLink("Create Your First Trick!", "Create", "NewTrick")
+</div>
+
